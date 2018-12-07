@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body onload="onload()">
+
+	<h1>My First Heading</h1>
+
+	<p>My first paragraph.</p>
+
+	<!--<p><video id="video" autoplay="autoplay"></video></p>-->
+	<canvas name='vid canvas' id='canvas' width='640' height='480'></canvas>
+
+	<button name="poke server" id="poke">poke server</button>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+	<script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js')}}"></script>
+	<script src="{{ url_for('static', filename='js/main.js')}}"></script>
+
+
+
+	<p id="reply"> here <p>
+
+</body>
+</html>
